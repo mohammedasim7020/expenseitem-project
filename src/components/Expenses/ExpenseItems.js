@@ -6,6 +6,7 @@ import ExpensesDate from '../Expenses/ExpensesDate'
 const ExpenseItems = (props) => {
   return (
     <Card className='expense-item'>
+  
         <ExpensesDate date={props.date}/>
       <div className='expense-item__description'>
         <h2>{props.title}</h2>
